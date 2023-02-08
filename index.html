@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="initialize()">
+   <div>
+        <h1>📝 To do list</h1>
+   </div>
+   <div class="container">
+     <input id="inputField" type="text"> <!-- text 입력창 만들기 -->
+     <button id="addToDo">할일추가</button> <!-- + 버튼 만들기 -->
+     <div class="to-dos"> </div> <!-- id = inputField에 할일이 입력되고
+    + 버튼이 눌리면 할일이 나타날 공간 만들기 -->
+    <ul id="toDoList"></ul>
+   </div>
+</body>
+<script src="./js/script.js"></script>
+</html>
